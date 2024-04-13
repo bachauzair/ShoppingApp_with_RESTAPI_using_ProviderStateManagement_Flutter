@@ -2,15 +2,15 @@
 import 'package:badges/badges.dart' as custom_badge;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:practice_two/productdetailscree.dart';
-import 'package:practice_two/products.dart';
+import 'package:practice_two/Screens/productdetailscree.dart';
+import 'package:practice_two/Models/products.dart';
 import 'package:provider/provider.dart';
 
-import 'Cart Item.dart';
+
 
 import 'Cart Screen.dart';
-import 'Get Product APi.dart';
-import 'Provider/Cart Provider.dart';
+import '../API/Get Product APi.dart';
+import '../Provider/Cart Provider.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

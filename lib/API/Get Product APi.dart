@@ -2,8 +2,8 @@ import 'dart:convert';
 
 
 import 'package:http/http.dart' as http;
-import 'Models/Products Model.dart';
-import 'Repo/Repository.dart';
+import '../Models/Products Model.dart';
+import '../Repo/Repository.dart';
 
 class GetProducts {
 
